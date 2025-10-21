@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+  }
+  
+  .App {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .App-header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .App-header h1 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .App-header p {
+    font-size: 0.9rem;
+    opacity: 0.8;
+  }
+  
+  .feature-popup {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    border: 1px solid #ccc;
+    min-width: 250px;
+    max-width: 400px;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  .popup-header {
+    background: #3498db;
+    color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .popup-header h3 {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+  }
+  
+  .close-btn:hover {
+    background: rgba(255,255,255,0.2);
+  }
+  
+  .popup-content {
+    padding: 1rem;
+  }
+  
+  .attributes-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .attributes-table tr {
+    border-bottom: 1px solid #eee;
+  }
+  
+  .attributes-table tr:last-child {
+    border-bottom: none;
+  }
+  
+  .attributes-table td {
+    padding: 0.5rem 0.25rem;
+    text-align: left;
+    vertical-align: top;
+  }
+  
+  .attribute-name {
+    font-weight: bold;
+    color: #2c3e50;
+    width: 40%;
+    padding-right: 0.5rem;
+  }
+  
+  .attribute-value {
+    color: #34495e;
+    word-break: break-word;
+  }
+  
+  .ol-zoom {
+    left: auto;
+    right: 8px;
+    top: 8px;
+  }
+  
+  .ol-attribution {
+    font-size: 0.7rem;
+  }
+  .ol-popup {
+    z-index: 9999;
+    pointer-events: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .App-header h1 {
+      font-size: 1.2rem;
+    }
+    
+    .feature-popup {
+      max-width: 300px;
+    }
+  }
