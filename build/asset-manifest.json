@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wms-wfs-map-app/static/css/main.9798231c.css",
+    "main.js": "/wms-wfs-map-app/static/js/main.cd639e80.js",
+    "index.html": "/wms-wfs-map-app/index.html",
+    "main.9798231c.css.map": "/wms-wfs-map-app/static/css/main.9798231c.css.map",
+    "main.cd639e80.js.map": "/wms-wfs-map-app/static/js/main.cd639e80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9798231c.css",
+    "static/js/main.cd639e80.js"
+  ]
+}
